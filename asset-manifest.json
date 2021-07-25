@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/uiuc-cs416-data-viz-narrative-viz-project/static/css/main.a617e044.chunk.css",
+    "main.js": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/main.13c33ad2.chunk.js",
+    "main.js.map": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/main.13c33ad2.chunk.js.map",
+    "runtime-main.js": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/runtime-main.90515bbf.js",
+    "runtime-main.js.map": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/runtime-main.90515bbf.js.map",
+    "static/js/2.7b0ee49b.chunk.js": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/2.7b0ee49b.chunk.js",
+    "static/js/2.7b0ee49b.chunk.js.map": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/2.7b0ee49b.chunk.js.map",
+    "static/js/3.4b214303.chunk.js": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/3.4b214303.chunk.js",
+    "static/js/3.4b214303.chunk.js.map": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/3.4b214303.chunk.js.map",
+    "index.html": "/uiuc-cs416-data-viz-narrative-viz-project/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/uiuc-cs416-data-viz-narrative-viz-project/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.7b0ee49b.chunk.js.LICENSE.txt": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/2.7b0ee49b.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/uiuc-cs416-data-viz-narrative-viz-project/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.90515bbf.js",
+    "static/js/2.7b0ee49b.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.13c33ad2.chunk.js"
+  ]
+}
