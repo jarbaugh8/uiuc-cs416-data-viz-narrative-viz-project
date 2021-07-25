@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/uiuc-cs416-data-viz-narrative-viz-project/static/css/main.a617e044.chunk.css",
-    "main.js": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/main.121b47ba.chunk.js",
-    "main.js.map": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/main.121b47ba.chunk.js.map",
+    "main.js": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/main.39edbe78.chunk.js",
+    "main.js.map": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/main.39edbe78.chunk.js.map",
     "runtime-main.js": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/runtime-main.9644431c.js",
     "runtime-main.js.map": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/runtime-main.9644431c.js.map",
     "static/js/2.11ba2a84.chunk.js": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/2.11ba2a84.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.9644431c.js",
     "static/js/2.11ba2a84.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.121b47ba.chunk.js"
+    "static/js/main.39edbe78.chunk.js"
   ]
 }
