@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/uiuc-cs416-data-viz-narrative-viz-project/static/css/main.a617e044.chunk.css",
-    "main.js": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/main.15058ff6.chunk.js",
-    "main.js.map": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/main.15058ff6.chunk.js.map",
+    "main.css": "/uiuc-cs416-data-viz-narrative-viz-project/static/css/main.61ff0d74.chunk.css",
+    "main.js": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/main.5024881c.chunk.js",
+    "main.js.map": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/main.5024881c.chunk.js.map",
     "runtime-main.js": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/runtime-main.14b47279.js",
     "runtime-main.js.map": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/runtime-main.14b47279.js.map",
     "static/js/2.385f0d34.chunk.js": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/2.385f0d34.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.a98c45cf.chunk.js": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/3.a98c45cf.chunk.js",
     "static/js/3.a98c45cf.chunk.js.map": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/3.a98c45cf.chunk.js.map",
     "index.html": "/uiuc-cs416-data-viz-narrative-viz-project/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/uiuc-cs416-data-viz-narrative-viz-project/static/css/main.a617e044.chunk.css.map",
+    "static/css/main.61ff0d74.chunk.css.map": "/uiuc-cs416-data-viz-narrative-viz-project/static/css/main.61ff0d74.chunk.css.map",
     "static/js/2.385f0d34.chunk.js.LICENSE.txt": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/2.385f0d34.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.14b47279.js",
     "static/js/2.385f0d34.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.15058ff6.chunk.js"
+    "static/css/main.61ff0d74.chunk.css",
+    "static/js/main.5024881c.chunk.js"
   ]
 }
