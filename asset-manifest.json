@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.a617e044.chunk.css",
-    "main.js": "/static/js/main.7e15697e.chunk.js",
-    "main.js.map": "/static/js/main.7e15697e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.9654baaa.js",
-    "runtime-main.js.map": "/static/js/runtime-main.9654baaa.js.map",
-    "static/js/2.385f0d34.chunk.js": "/static/js/2.385f0d34.chunk.js",
-    "static/js/2.385f0d34.chunk.js.map": "/static/js/2.385f0d34.chunk.js.map",
-    "static/js/3.a98c45cf.chunk.js": "/static/js/3.a98c45cf.chunk.js",
-    "static/js/3.a98c45cf.chunk.js.map": "/static/js/3.a98c45cf.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.385f0d34.chunk.js.LICENSE.txt": "/static/js/2.385f0d34.chunk.js.LICENSE.txt"
+    "main.css": "/uiuc-cs416-data-viz-narrative-viz-project/static/css/main.a617e044.chunk.css",
+    "main.js": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/main.7e15697e.chunk.js",
+    "main.js.map": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/main.7e15697e.chunk.js.map",
+    "runtime-main.js": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/runtime-main.14b47279.js",
+    "runtime-main.js.map": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/runtime-main.14b47279.js.map",
+    "static/js/2.385f0d34.chunk.js": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/2.385f0d34.chunk.js",
+    "static/js/2.385f0d34.chunk.js.map": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/2.385f0d34.chunk.js.map",
+    "static/js/3.a98c45cf.chunk.js": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/3.a98c45cf.chunk.js",
+    "static/js/3.a98c45cf.chunk.js.map": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/3.a98c45cf.chunk.js.map",
+    "index.html": "/uiuc-cs416-data-viz-narrative-viz-project/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/uiuc-cs416-data-viz-narrative-viz-project/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.385f0d34.chunk.js.LICENSE.txt": "/uiuc-cs416-data-viz-narrative-viz-project/static/js/2.385f0d34.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.9654baaa.js",
+    "static/js/runtime-main.14b47279.js",
     "static/js/2.385f0d34.chunk.js",
     "static/css/main.a617e044.chunk.css",
     "static/js/main.7e15697e.chunk.js"
