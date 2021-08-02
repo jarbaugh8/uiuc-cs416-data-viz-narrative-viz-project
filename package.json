@@ -1,7 +1,7 @@
 {
   "name": "narrative-visualization-project",
   "version": "0.1.0",
-  "homepage": "http://jarbaugh8.github.io/uiuc-cs416-data-viz-narrative-viz-project",
+  "homepage": "/uiuc-cs416-data-viz-narrative-viz-project",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",

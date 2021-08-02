@@ -16,19 +16,22 @@ function MyChart({ data, state }) {
   const [selectedLocations, setSelectedLocations] = useState({});
   const [locationColors, setLocationColors] = useState({});
   const [sceneNumber, setSceneNumber] = useState(0);
-  const fillColors = ["green", "blue", "red", "yellow", "orange", "purple"];
+  const fillColors = ["red", "blue", "green", "yellow", "orange", "purple"];
   console.log(`usePercentageDiff: ${usePercentageDiff}`);
   console.log(`locationColors: ${JSON.stringify(locationColors)}`);
 
   let { year, setYear, manualInputYear, setManualInputYear } = state;
+  if (!manualInputYear && sceneNumber > 1) {
+    manualInputYear = 2017; // workaround for an issue
+  }
   console.log(`year=${year}`);
   const offsetYears = -10;
   year = manualInputYear ?? year;
   const [myInterval, setMyInterval] = useState(undefined);
 
-  const height = 800;
+  const height = 1500;
   const width = 1500;
-  const margin = { top: 150, right: 30, bottom: 80, left: 100 };
+  const margin = { top: 500, right: 30, bottom: 80, left: 100 };
 
   const transitionDuration = 1000;
 
@@ -69,7 +72,10 @@ function MyChart({ data, state }) {
   }
 
   if (!manualInputYear && year > 2017) {
+    console.log("paosidjfpaosidjfaosdpfijasdpfoaij");
+    console.log(manualInputYear);
     setManualInputYear(2017);
+    setSceneNumber(2);
   }
 
 
@@ -172,7 +178,9 @@ function MyChart({ data, state }) {
         .style("border-radius", "5px")
         .style("padding", "5px")
         //.style("font-size", "60%")
-        .attr("position", "absolute"); // ???
+        .attr("position", "absolute")
+        .attr("pointer-events", "none");
+
 
       // Used as template:
       // https://www.d3-graph-gallery.com/graph/interactivity_tooltip.html#template
@@ -214,15 +222,18 @@ function MyChart({ data, state }) {
           .html(`Country/Region:\t${d}<br>GDP per cap:\t$${formatData(xDataRaw(d), 0)} USD<br>GHG per cap:\t${formatData(yDataRaw(d), 2)} kt CO2 equiv`)
           .style("left", (d3.pointer(event)[0]+5) + "px")
           .style("top", (d3.pointer(event)[1]) + "px")
+          .style("width", "auto")
+          .style("height", "auto");
       }
       var mouseleave = function(d) {
         tooltip
           .style("opacity", 0)
+          .style("width", "0px")
+          .style("height", "0px")
+          .html("");
         d3.select(this)
           .style("stroke", "none")
           .style("opacity", 0.8)
-          .style("width", "0px")
-          .style("height", "0px")
       }
 
 
@@ -233,6 +244,148 @@ function MyChart({ data, state }) {
         }
         return color;
       };
+
+      // Annotations before data points, to avoid blocking on-hover / on-click for data points
+      function addAnnotationsForScene1() {
+        const annX = x(xData("United States"));
+        const annY = y(yData("United States"));
+
+        const makeAnnotations = d3.annotation()
+          .notePadding(15)
+          //.type(d3.annotationLabel)
+          .annotations([{
+            label: "TEST TEXT",
+            bgPadding: 20,
+            x: 200,
+            y: margin.top + 100,
+            note: {
+              label: "In 1960, the correlation between GDP per capita and greenhouse gas emissions was pretty clear. Click on a point to follow that country / location through the years.",
+              wrap: 1000,
+              type: d3.annotationLabel,
+            }
+          },
+
+
+          {
+            note: {
+              label: "The USA was near the top (in this dataset) for both measures in 1960.",
+              wrap: 250,
+            },
+            type: d3.annotationCalloutCircle,
+            subject: { radius: 15, radiusPadding: 10 },
+            //can use x, y directly instead of data
+            className: "show-bg",
+            x: annX,
+            y: annY,
+            dy: 225,
+            dx: -75
+          }
+        ]);
+
+        d3.select("svg")
+          .append("g")
+          .attr("class", ".annotation")
+          .attr("font-size", "25")
+          .attr("class", "annotation-group")
+          .attr("pointer-events", "none")
+          .call(makeAnnotations);
+      }
+
+      function addAnnotationsForScene2() {
+        const annX = x(xData("Qatar"));
+        const annY = y(yData("Qatar"));
+
+        const makeAnnotations = d3.annotation()
+          .notePadding(15)
+          //.type(d3.annotationLabel)
+          .annotations([{
+            label: "TEST TEXT",
+            bgPadding: 20,
+            x: 200,
+            y: margin.top - 50,
+            note: {
+              label: "This correlation stands the test of 50+ years - in 2017, the correlation seems even more pronounced, though this may in part due to having a broader dataset. Click more locations if you'd like to track them, and select 'Percent Change Over 10 Years' at the bottom to continue.",
+              wrap: 750,
+              type: d3.annotationLabel,
+            }
+          },
+
+
+          {
+            note: {
+              label: "As soon as Qatar entered the dataset, it topped the charts in greenhouse gas emissions, presumably due to the nature of energy-industry exports.",
+              wrap: 250,
+            },
+            type: d3.annotationCalloutCircle,
+            subject: { radius: 15, radiusPadding: 10 },
+            //can use x, y directly instead of data
+            className: "show-bg",
+            x: annX,
+            y: annY,
+            dy: 350,
+            dx: 0,
+          }
+        ]);
+
+        d3.select("svg")
+          .append("g")
+          .attr("class", ".annotation")
+          .attr("font-size", "25")
+          .attr("class", "annotation-group")
+          .attr("pointer-events", "none")
+          .call(makeAnnotations);
+      }
+
+      function addAnnotationsForScene3() {
+        const annX = x(xData("Lao PDR"));
+        const annY = y(yData("Lao PDR"));
+
+        const makeAnnotations = d3.annotation()
+          .notePadding(15)
+          //.type(d3.annotationLabel)
+          .annotations([{
+            bgPadding: 20,
+            x: 200,
+            y: margin.top + 50,
+            note: {
+              label: "When viewing the change over the last 10 years of an individual country, the correlation between GDP and greenhouse gas emissions is less obvious, but still noticeable. Go ahead and explore; the year selector is now unlocked.",
+              wrap: 750,
+              type: d3.annotationLabel,
+            }
+          },
+          {
+            note: {
+              label: "The GDP of Laos has been growing very rapidly (relatively speaking) over the last 10 years, and that has come with a huge relative spike in greenhouse gas emissions - much more so than other countries with similar growth.",
+              wrap: 400,
+            },
+            type: d3.annotationCalloutCircle,
+            subject: { radius: 15, radiusPadding: 10 },
+            //can use x, y directly instead of data
+            className: "show-bg",
+            x: annX,
+            y: annY,
+            dy: 200,
+            dx: -50,
+          }
+        ]);
+
+        d3.select("svg")
+          .append("g")
+          .attr("class", ".annotation")
+          .attr("font-size", "25")
+          .attr("class", "annotation-group")
+          .attr("pointer-events", "none")
+          .call(makeAnnotations);
+      }
+
+      d3.select("svg").selectAll(".annotation").remove();
+      if (sceneNumber === 0) {
+        addAnnotationsForScene1();
+      } else if (sceneNumber === 2) {
+        addAnnotationsForScene2();
+      } else if (sceneNumber === 3) {
+        addAnnotationsForScene3();
+      }
 
       const scatterPoints = svg
         .select(".plot-area")
@@ -295,48 +448,6 @@ function MyChart({ data, state }) {
 
 
 
-
-      function testAnnotations() {
-        const annX = x(xData("Qatar"));
-        const annY = y(yData("Qatar"));
-        const releventLocation = "Qatar";
-        const type = d3.annotationLabel
-        const annotations = [{
-          note: {
-            label: "Longer text to show text wrapping",
-            bgPadding: 20,
-            title: "Annotations :)"
-          },
-          subject: { radius: 12, radiusPadding: 10 },
-          //can use x, y directly instead of data
-          className: "show-bg",
-          x: annX,
-          y: annY,
-          dy: -75,
-          dx: -75
-        }]
-
-        const makeAnnotations = d3.annotation()
-          //also can set and override in the note.padding property
-          //of the annotation object
-          .notePadding(15)
-          .type(type)
-          //accessors & accessorsInverse not needed
-          //if using x, y in annotations JSON
-          //.accessors({
-          //  x: d => getX(xData(d)),
-          //  y: d => getY(yData(d)),
-          //})
-          .annotations(annotations)
-
-        d3.select("svg").selectAll(".annotation").remove();
-        d3.select("svg")
-          .append("g")
-          .attr("class", ".annotation")
-          .attr("class", "annotation-group")
-          .call(makeAnnotations)
-      }
-      testAnnotations();
     },
     [year, usePercentageDiff, selectedLocations, locationColors, sceneNumber] // NOTE: Assumes data is forever constant
   );
@@ -364,7 +475,7 @@ function MyChart({ data, state }) {
         </svg>
         <div id="mychart-tooltip" />
       </div>
-      <YearSelector year={year} setYear={setManualInputYear} percentMode={usePercentageDiff} setPercentMode={setUsePercentageDiff} disable={sceneNumber < 2} />
+      <YearSelector year={year} setYear={setManualInputYear} percentMode={usePercentageDiff} setPercentMode={setUsePercentageDiff} sceneNumber={sceneNumber} setSceneNumber={setSceneNumber} />
     </div>
   );
 }

@@ -12,6 +12,7 @@ function App() {
   const [gdpData, setGdpData] = useState([]);
   const [data, setData] = useState({});
   const [manualInputYear, setManualInputYear] = useState(undefined);
+  console.log("MANUAL INPUT YEAR: ", manualInputYear);
   const [year, setYear] = useState(manualInputYear ?? 1960);
   let requiredDataSourceCount = 0;
 
@@ -31,8 +32,8 @@ function App() {
         );
     }, []);
   }
-  useCsv("/data/API_NY.GDP.PCAP.CD_DS2_en_csv_v2_2708431.csv", setGdpData);
-  useCsv("/data/API_EN.ATM.CO2E.PC_DS2_en_csv_v2_2708833.csv", setGhgData);
+  useCsv(process.env.PUBLIC_URL + "/data/API_NY.GDP.PCAP.CD_DS2_en_csv_v2_2708431.csv", setGdpData);
+  useCsv(process.env.PUBLIC_URL + "/data/API_EN.ATM.CO2E.PC_DS2_en_csv_v2_2708833.csv", setGhgData);
 
   useEffect(() => {
     if (requiredDataSourceCount !== dataLoadCount) {
