@@ -313,7 +313,7 @@ function MyChart({ data, state }) {
 
           {
             note: {
-              label: "As soon as Qatar entered the dataset, it topped the charts in greenhouse gas emissions, presumably due to the nature of energy-industry exports.",
+              label: "As soon as Qatar entered the dataset, it topped the charts in greenhouse gas emissions, presumably due to the nature of its energy-industry exports.",
               wrap: 250,
             },
             type: d3.annotationCalloutCircle,
