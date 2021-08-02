@@ -1,0 +1,215 @@
+"Country","Prevalence of smoking Male % of adults 2016","Prevalence of smoking female % of adults 2016","Incidence of tuberculosis  per 100,000 people 2018","Prevalence of diabetes  % of population ages 20 to 79 2019","Incidence of HIV Total per 1,000 uninfected population ages 15-49 2018","Prevalence of HIV Total % of population ages 15-49 2018","Prevalence of HIV Women's share of population ages 15+ living with HIV % 2018","Prevalence of HIV Youth, Male % of population ages 15-24 2018","Prevalence of HIV Youth, Female % of population ages 15-24 2018","Antiretroviral therapy coverage  % of people living with HIV 2018","Cause of death Communicable diseases and maternal, prenatal, and nutrition conditions % of population 2016","Cause of death Non-communicable diseases % of population 2016","Cause of death Injuries % of population 2016"
+"Afghanistan",NA,NA,189,9.2,0.04,0.1,29,0.1,0.1,13,36,44,20
+"Albania",51,7,18,9,NA,NA,NA,NA,NA,NA,3,93,4
+"Algeria",30,1,69,6.7,0.05,0.1,46,0.1,0.1,81,15,76,10
+"American Samoa",NA,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Andorra",38,29,3,7.7,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Angola",NA,NA,355,4.5,1.6,2,69,0.3,1.2,27,63,27,9
+"Antigua and Barbuda",NA,NA,6,13.1,NA,NA,NA,NA,NA,NA,12,82,6
+"Argentina",28,16,27,5.9,0.3,0.4,32,0.1,0.1,61,16,78,7
+"Armenia",52,2,31,6.1,0.1,0.2,34,0.1,0.1,53,3,93,4
+"Aruba",NA,NA,5,11.6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Australia",17,13,7,5.6,0.08,0.1,12,0.1,0.1,83,5,90,6
+"Austria",31,28,7,6.6,NA,NA,NA,NA,NA,NA,3,92,5
+"Azerbaijan",43,0,63,6.1,NA,NA,NA,NA,NA,NA,9,87,5
+"Bahamas, The",20,3,14,8.8,0.8,1.8,44,0.6,0.5,52,17,74,9
+"Bahrain",38,6,11,15.6,NA,NA,NA,NA,NA,NA,7,83,10
+"Bangladesh",45,1,221,9.2,0.02,0.1,36,0.1,0.1,22,26,67,8
+"Barbados",15,2,0,13.4,1.1,1.5,34,0.3,0.2,50,13,83,4
+"Belarus",46,11,31,5,0.4,0.5,43,0.1,0.1,59,3,91,7
+"Belgium",31,25,9,4.6,NA,NA,NA,NA,NA,NA,8,86,6
+"Belize",NA,NA,30,17.1,1.3,1.9,47,0.8,1,28,19,67,13
+"Benin",12,1,56,1,0.58,1,61,0.2,0.4,61,54,36,10
+"Bermuda",NA,NA,4,6.7,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Bhutan",NA,NA,149,10.3,0.2,0.3,30,0.1,0.1,37,21,69,11
+"Bolivia",NA,NA,108,6.8,0.2,0.3,32,0.1,0.1,44,22,65,13
+"Bosnia and Herzegovina",48,30,25,9,0.01,0.1,15,0.1,0.1,67,2,95,4
+"Botswana",34,6,275,5.8,7.4,20.3,57,4.9,8.9,83,46,46,8
+"Brazil",18,10,45,10.4,NA,0.5,NA,NA,NA,66,14,74,12
+"Brunei Darussalam",31,2,68,13.3,NA,NA,NA,NA,NA,NA,8,85,7
+"Bulgaria",44,30,22,6,0.1,0.1,22,0.1,0.1,41,2,95,3
+"Burkina Faso",24,2,48,7.3,0.2,0.7,61,0.2,0.4,62,56,33,11
+"Burundi",NA,NA,111,5.1,0.2,1,62,0.5,0.6,80,56,32,12
+"Cabo Verde",17,2,46,2.4,0.3,0.6,54,0.1,0.2,89,20,70,10
+"Cambodia",34,2,302,6.4,0.1,0.5,53,0.1,0.1,81,26,64,10
+"Cameroon",NA,NA,186,6,1.6,3.6,66,0.7,1.8,52,54,35,11
+"Canada",17,12,6,7.6,NA,NA,NA,NA,NA,69,6,88,6
+"Cayman Islands",NA,NA,5,6.8,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Central African Republic",NA,NA,540,6,2,3.6,59,1,1.5,36,64,26,10
+"Chad",NA,NA,142,6,0.6,1.3,57,0.5,0.8,51,63,27,9
+"Channel Islands",NA,NA,NA,3.9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Chile",42,34,18,8.6,0.5,0.5,17,0.2,0.1,63,8,85,7
+"China",48,2,61,9.2,NA,NA,NA,NA,NA,NA,4,89,7
+"Hong Kong SAR, China",NA,NA,67,4.5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Macao SAR, China",NA,NA,60,4.3,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Colombia",14,5,33,7.4,0.2,0.4,20,0.1,0.1,73,10,75,15
+"Comoros",24,4,35,12.3,0.01,0.1,44,0.1,0.1,79,47,42,11
+"Congo, Dem. Rep.",NA,NA,321,6,0.3,0.8,72,0.2,0.5,57,62,28,10
+"Congo, Rep.",52,2,375,6,1.6,2.6,67,0.5,1.6,35,56,35,10
+"Costa Rica",17,6,10,9.1,0.4,0.4,20,0.1,0.1,49,6,83,10
+"Cote d'Ivoire",NA,NA,142,2.4,1.08,2.6,61,0.6,1.2,55,52,37,10
+"Croatia",40,34,8,5.4,0.04,0.1,11,0.1,0.1,75,2,92,5
+"Cuba",53,17,7,9.6,0.3,0.4,18,0.1,0.1,72,8,84,8
+"Curacao",NA,NA,6,11.6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Cyprus",53,20,5,9,NA,NA,NA,NA,NA,NA,4,91,5
+"Czech Republic",38,31,5,7,0.09,0.1,11,0.1,0.1,60,5,90,5
+"Denmark",19,19,5,8.3,0.05,0.1,26,0.1,0.1,89,7,90,4
+"Djibouti",25,2,260,5.1,0.8,1.2,58,0.4,0.6,30,45,44,10
+"Dominica",NA,NA,6,11.6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Dominican Republic",19,9,45,8.6,0.4,0.9,49,0.3,0.3,56,16,72,12
+"Ecuador",12,2,44,5.5,0.2,0.4,30,0.1,0.1,57,15,72,13
+"Egypt, Arab Rep.",50,0,12,17.2,0.06,0.1,30,0.1,0.1,31,10,84,6
+"El Salvador",19,3,70,8.8,0.2,0.6,37,0.2,0.1,47,11,74,15
+"Equatorial Guinea",NA,NA,201,6,6.2,7.1,52,1.8,3.3,34,53,36,11
+"Eritrea",11,0,89,5.1,0.2,0.7,61,0.2,0.3,51,43,45,12
+"Estonia",39,25,13,4.2,0.5,0.9,35,0.1,0.1,59,3,93,5
+"Eswatini",17,2,329,4.5,15.4,27.3,63,3.1,15.9,86,54,37,10
+"Ethiopia",9,0,151,4.3,0.4,1,63,0.2,0.4,65,49,39,12
+"Faroe Islands",NA,NA,NA,4.7,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Fiji",35,10,54,14.7,NA,NA,NA,NA,NA,NA,10,84,5
+"Finland",23,18,5,5.6,0.07,0.1,28,0.1,0.1,76,1,93,6
+"France",36,30,9,4.8,0.2,0.3,26,0.1,0.1,83,6,88,6
+"French Polynesia",NA,NA,22,19.5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Gabon",NA,NA,525,6,1.5,3.8,69,0.5,1.9,67,50,41,9
+"Gambia, The",31,1,174,1.9,1.8,1.9,61,0.2,0.6,29,55,34,11
+"Georgia",56,5,80,5.8,0.3,0.4,32,0.1,0.1,49,3,94,4
+"Germany",33,28,7,10.4,0.06,0.1,20,0.1,0.1,80,5,91,4
+"Ghana",8,0,148,2.5,1.1,1.7,67,0.4,1,34,48,43,10
+"Greece",52,35,5,4.7,NA,NA,NA,NA,NA,NA,11,86,3
+"Greenland",NA,NA,100,2.1,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Grenada",NA,NA,2,10.7,NA,NA,NA,NA,NA,NA,12,81,7
+"Guam",NA,NA,49,18.7,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Guatemala",NA,NA,26,10,0.2,0.4,43,0.1,0.1,43,25,59,16
+"Guinea",NA,NA,176,2.4,0.8,1.4,62,0.3,0.8,40,56,35,9
+"Guinea-Bissau",NA,NA,361,2.4,2,3.5,61,0.9,1.4,33,62,30,8
+"Guyana",NA,NA,83,11.6,0.8,1.4,48,0.3,0.4,68,20,68,12
+"Haiti",23,3,176,6.7,1.1,2,58,0.5,1.1,58,30,57,13
+"Honduras",NA,2,37,7.3,0.1,0.3,40,0.2,0.1,50,14,67,20
+"Hungary",35,27,6,6.9,0.04,0.1,16,0.1,0.1,56,2,94,4
+"Iceland",15,14,3,5.8,0.1,0.1,26,0.1,0.1,79,4,90,6
+"India",21,2,199,10.4,NA,NA,NA,NA,NA,NA,26,63,11
+"Indonesia",76,3,316,6.3,0.3,0.4,36,0.3,0.2,17,21,73,6
+"Iran, Islamic Rep.",21,1,14,9.6,0.08,0.1,25,0.1,0.1,20,8,82,10
+"Iraq",NA,NA,42,8.8,NA,NA,NA,NA,NA,NA,17,55,28
+"Ireland",26,23,7,3.2,0.1,0.2,34,0.1,0.1,80,5,91,4
+"Isle of Man",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Israel",35,15,4,9.7,0.1,0.2,25,0.1,0.1,NA,10,86,4
+"Italy",28,20,7,5,0.1,0.3,30,0.1,0.1,91,5,91,4
+"Jamaica",29,5,3,11.3,1.4,1.9,37,0.5,0.3,31,11,80,9
+"Japan",34,11,14,5.6,0.02,0.1,10,0.1,0.1,80,13,82,5
+"Jordan",NA,NA,5,12.7,0.01,0.1,17,0.1,0.1,84,11,78,11
+"Kazakhstan",43,7,68,6.1,0.2,0.2,37,0.1,0.1,58,5,86,10
+"Kenya",20,1,292,3.1,1.62,4.7,63,1.5,2.5,68,63,27,10
+"Kiribati",59,36,349,22.5,NA,NA,NA,NA,NA,NA,29,64,7
+"Korea, Dem. People’s Rep.",NA,NA,513,6.4,NA,NA,NA,NA,NA,NA,10,84,7
+"Korea, Rep.",41,6,66,6.9,NA,NA,NA,NA,NA,NA,10,80,10
+"Kosovo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Kuwait",37,3,23,12.2,0.06,0.1,29,0.1,0.1,62,15,72,13
+"Kyrgyz Republic",51,4,116,6.1,0.2,0.2,34,0.1,0.1,43,10,83,8
+"Lao PDR",51,7,162,6.4,0.1,0.3,45,0.1,0.1,54,31,60,9
+"Latvia",51,26,29,5,0.4,0.4,31,0.1,0.1,45,3,92,5
+"Lebanon",41,27,11,11.2,0.04,0.1,16,0.1,0.1,60,4,91,6
+"Lesotho",54,0,611,4.5,13.4,23.6,59,4.1,10.8,61,59,32,8
+"Liberia",18,2,308,2.4,0.6,1.3,62,0.4,0.8,35,59,31,10
+"Libya",NA,NA,40,10.2,0.1,0.2,30,0.1,0.1,44,8,72,20
+"Liechtenstein",NA,NA,NA,9.4,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Lithuania",38,21,44,3.8,NA,NA,NA,NA,NA,NA,4,90,7
+"Luxembourg",26,21,8,5,0.2,0.3,28,0.1,0.1,77,5,88,7
+"Madagascar",NA,NA,233,4.5,0.4,0.3,31,0.2,0.1,9,46,43,11
+"Malawi",25,4,181,4.5,4.4,9.2,60,2,4.3,78,60,32,9
+"Malaysia",42,1,92,16.7,0.31,0.4,17,0.3,0.1,48,18,74,9
+"Maldives",55,2,33,9.2,NA,NA,NA,NA,NA,NA,8,84,8
+"Mali",23,2,53,2.4,1.3,1.4,64,0.4,1,31,61,31,9
+"Malta",30,21,14,8.3,NA,NA,NA,NA,NA,NA,6,91,3
+"Marshall Islands",NA,NA,434,30.5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Mauritania",NA,NA,93,7.1,0.05,0.2,39,0.1,0.1,54,53,37,9
+"Mauritius",41,3,13,22,1.2,1.3,31,0.2,0.2,22,7,89,5
+"Mexico",21,7,23,13.5,0.14,0.2,16,0.1,0.1,70,10,80,10
+"Micronesia, Fed. Sts.",NA,NA,108,11.9,NA,NA,NA,NA,NA,NA,19,75,7
+"Moldova",45,6,86,5.7,0.44,0.6,40,0.1,0.1,34,4,90,6
+"Monaco",NA,NA,0,2.9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Mongolia",47,6,428,4.7,0.02,0.1,19,0.1,0.1,32,10,80,11
+"Montenegro",48,44,15,9,0.14,0.1,12,0.1,0.1,40,1,95,4
+"Morocco",47,1,99,7,0.04,0.1,42,0.1,0.1,65,14,80,6
+"Mozambique",29,5,551,3.3,10.1,12.6,61,3,7.2,56,65,27,8
+"Myanmar",35,6,338,3.9,0.3,0.8,38,0.4,0.3,70,24,68,9
+"Namibia",34,10,524,4.5,4.9,11.8,60,2.6,4.5,92,49,41,10
+"Nepal",38,10,151,7.2,0.05,0.1,40,0.1,0.1,56,25,66,9
+"Netherlands",27,24,5,5.4,0.05,0.2,17,0.1,0.1,83,5,90,5
+"New Caledonia",NA,NA,15,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"New Zealand",17,15,7,6.2,0.06,0.1,16,0.1,0.1,73,5,90,6
+"Nicaragua",NA,NA,41,11.4,0.1,0.2,33,0.1,0.1,53,11,76,13
+"Niger",15,0,87,2.4,0.1,0.3,51,0.1,0.1,54,63,27,10
+"Nigeria",11,1,219,3.1,1.02,1.5,57,0.5,0.8,53,63,29,8
+"North Macedonia",NA,NA,13,9.3,0.04,0.1,12,0.1,0.1,54,2,95,3
+"Northern Mariana Islands",NA,NA,95,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Norway",21,20,4,5.3,0.04,0.1,28,0.1,0.1,82,7,87,6
+"Oman",16,1,6,10.1,0.1,0.2,30,0.1,0.1,41,11,72,18
+"Pakistan",37,3,265,19.9,0.2,0.1,30,0.1,0.1,10,35,58,7
+"Palau",23,8,109,17.9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Panama",10,2,52,7.7,0.6,0.9,30,0.2,0.1,54,16,75,10
+"Papua New Guinea",49,24,432,17.9,0.4,0.8,58,0.2,0.3,65,36,56,8
+"Paraguay",22,5,43,9.6,0.3,0.5,31,0.2,0.2,40,14,74,12
+"Peru",NA,5,123,6.6,0.2,0.3,23,0.1,0.1,73,20,69,11
+"Philippines",41,8,554,7.1,0.24,0.1,6,0.3,0.1,44,25,67,8
+"Poland",33,23,16,6.1,NA,NA,NA,NA,NA,NA,5,90,5
+"Portugal",30,16,24,9.8,0.1,0.5,29,0.1,0.1,90,10,86,4
+"Puerto Rico",NA,NA,1,13.7,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Qatar",27,1,31,15.6,NA,NA,NA,NA,NA,NA,5,69,26
+"Romania",37,23,68,6.9,0.1,0.1,36,0.1,0.1,67,4,92,4
+"Russian Federation",58,23,54,6.1,NA,NA,NA,NA,NA,NA,5,87,8
+"Rwanda",21,5,59,5.1,0.5,2.5,62,0.5,0.9,87,42,44,14
+"Samoa",38,17,6,9.2,NA,NA,NA,NA,NA,NA,12,81,7
+"San Marino",NA,NA,0,5.9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Sao Tome and Principe",NA,NA,124,2.4,NA,NA,NA,NA,NA,NA,34,55,11
+"Saudi Arabia",25,2,10,15.8,NA,NA,NA,NA,NA,NA,11,73,16
+"Senegal",17,0,118,2.4,0.1,0.4,67,0.1,0.2,63,46,42,12
+"Serbia",40,38,17,9,0.04,0.1,16,0.1,0.1,65,2,95,3
+"Seychelles",36,7,18,12.3,NA,NA,NA,NA,NA,NA,12,81,7
+"Sierra Leone",41,9,298,2.4,0.9,1.5,61,0.5,1.1,41,58,33,9
+"Singapore",28,5,47,5.5,0.07,0.2,10,0.1,0.1,78,23,74,4
+"Sint Maarten (Dutch part)",NA,NA,19,6.8,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Slovak Republic",38,23,6,6.5,0.04,0.1,14,0.1,0.1,54,5,89,6
+"Slovenia",25,20,5,5.9,NA,0.1,NA,NA,NA,NA,5,88,7
+"Solomon Islands",NA,NA,74,19,NA,NA,NA,NA,NA,NA,22,69,9
+"Somalia",NA,NA,262,5.1,0.04,0.1,59,0.1,0.1,30,64,24,12
+"South Africa",33,8,520,12.7,8.7,20.4,62,3.7,11.3,62,40,51,9
+"South Sudan",NA,NA,146,10.2,2.6,2.5,59,0.7,1.2,16,63,27,9
+"Spain",31,27,9,6.9,0.13,0.3,18,0.1,0.1,84,5,91,4
+"Sri Lanka",27,0,64,10.7,0.01,0.1,30,0.1,0.1,45,8,83,10
+"St. Kitts and Nevis",NA,NA,0,13.3,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"St. Lucia",NA,NA,3,11.6,NA,NA,NA,NA,NA,NA,10,82,8
+"St. Martin (French part)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"St. Vincent and the Grenadines",NA,NA,6,11.6,NA,NA,NA,NA,NA,NA,13,81,6
+"Sudan",NA,NA,71,22.1,0.2,0.2,47,0.1,0.1,15,35,52,13
+"Suriname",43,7,38,12.5,0.8,1.4,43,0.3,0.3,52,13,76,11
+"Sweden",19,19,6,4.8,NA,NA,NA,NA,NA,NA,5,90,5
+"Switzerland",29,23,6,5.7,NA,NA,NA,NA,NA,NA,4,90,6
+"Syrian Arab Republic",NA,NA,19,13.5,0.01,0.1,31,0.1,0.1,20,5,45,50
+"Tajikistan",NA,NA,84,6.1,0.2,0.2,28,0.1,0.1,46,23,69,8
+"Tanzania",27,3,253,5.7,2.5,4.6,60,1.2,2.2,71,56,33,11
+"Thailand",39,2,153,7,0.2,1.1,44,0.3,0.2,75,16,74,10
+"Timor-Leste",78,6,498,6.7,NA,NA,NA,NA,NA,NA,46,45,9
+"Togo",14,1,36,2.4,1.06,2.3,64,0.5,1,60,52,38,11
+"Tonga",44,12,10,15.7,NA,NA,NA,NA,NA,NA,12,83,6
+"Trinidad and Tobago",NA,NA,21,11,NA,NA,NA,NA,NA,NA,9,81,10
+"Tunisia",66,1,35,8.5,0.04,0.1,33,0.1,0.1,39,8,86,6
+"Turkey",41,14,16,11.1,NA,NA,NA,NA,NA,NA,4,89,6
+"Turkmenistan",NA,NA,46,6.1,NA,NA,NA,NA,NA,NA,17,76,7
+"Turks and Caicos Islands",NA,NA,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Tuvalu",NA,NA,270,22.1,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Uganda",17,3,200,2.5,2.6,5.7,60,1.1,2.8,72,55,33,13
+"Ukraine",47,14,80,6.1,0.6,1,37,0.1,0.1,52,4,91,5
+"United Arab Emirates",37,1,1,16.3,NA,NA,NA,NA,NA,NA,7,77,17
+"United Kingdom",25,20,8,3.9,NA,0.2,29,NA,NA,90,8,89,4
+"United States",25,19,3,10.8,NA,0.4,NA,NA,NA,NA,5,88,7
+"Uruguay",20,14,33,7.3,0.5,0.6,29,0.2,0.1,58,8,85,8
+"Uzbekistan",25,1,70,6.5,0.2,0.2,34,0.1,0.1,51,10,84,6
+"Vanuatu",35,3,46,11.9,NA,NA,NA,NA,NA,NA,19,74,7
+"Venezuela, RB",NA,NA,48,7,NA,NA,34,NA,NA,NA,11,70,19
+"Vietnam",46,1,182,6,0.1,0.3,33,0.1,0.1,65,12,77,11
+"Virgin Islands (U.S.)",NA,NA,NA,12.3,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"West Bank and Gaza",NA,NA,1,9.5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Yemen, Rep.",29,8,48,5.4,0.07,0.1,22,0.1,0.1,21,29,57,15
+"Zambia",25,3,346,4.5,5.67,11.3,59,2.4,5,78,61,29,10
+"Zimbabwe",31,2,210,1.8,4.86,12.7,60,3.2,5.7,88,55,33,12
